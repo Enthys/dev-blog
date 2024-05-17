@@ -13,6 +13,11 @@ summaryLength = 120
 	showPostsLink = true
 	extraContentDirs = ['projects']
 
+	logo = "/logo.png"
+    favicon = "/favicon.png"
+    faviconIco = "/favicon.png"
+
+
 	showSinglePageAsHome = false
     homeSinglePage = "/home"
 
