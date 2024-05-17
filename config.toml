@@ -1,0 +1,44 @@
+baseURL = 'https://blog.enthys.com/'
+languageCode = 'en-us'
+title = 'dev-blog.Enthys'
+theme = 'main'
+
+paginate = 7
+summaryLength = 120
+
+[params]
+	author = 'Asen Mihaylov'
+	description = 'Personal blog where I write down things which interest me and wish to not forget'
+	posts = 'posts'
+	showPostsLink = true
+	extraContentDirs = ['projects']
+
+	showSinglePageAsHome = false
+    homeSinglePage = "/home"
+
+	paperCards = true
+	buttonTags = true
+
+	searchMenuLink = true
+	enableSidebarLayout = true
+	tocIsSidebar = true
+
+	enableJumbotron = true
+	enableRelatedArticles = true
+	relatedArticlesNum = 3
+
+[menu]
+	[[menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about/"
+		weight = 100
+	[[menu.icons]]
+		identifier = "github"
+		name = "Github"
+		url = "https://github.com/Enthys"
+		weight = 10
+	[[menu.icons]]
+		identifier = "linkedin"
+		name = "LinkedIn"
+		url = "https://www.linkedin.com/in/asen-mihaylov/"
