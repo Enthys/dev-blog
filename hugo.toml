@@ -1,6 +1,6 @@
-baseURL = 'https://blog.enthys.com/'
+baseURL = 'https://dev.enthys.com/'
 languageCode = 'en-us'
-title = 'dev-blog.Enthys'
+title = 'dev.Enthys'
 theme = 'main'
 
 paginate = 7
