@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "dev-blog.Enthys",
+  "short_name": "dev-blog.Enthys",
+  "start_url": "/",
+  "display": "standalone",
+  
+  
+  
+  "background_color": "#242629",
+  "theme_color": "#db5793"
+  
+    ,
+    "description": "Personal blog where I write down things which interest me and wish to not forget"
+  
+  
+}
+

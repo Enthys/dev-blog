@@ -1,0 +1,10 @@
+title: Enthys's Blog
+hugeTitle: false
+subtitle: Personal blog where I post things which interest me and don't wish to forget
+links:
+  - title: About me
+    link: /pages/about
+  - title: Posts
+    link: /posts
+  - tile: Projects
+    link: /projects

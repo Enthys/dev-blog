@@ -1,0 +1,3 @@
+[submodule "themes/main"]
+	path = themes/main
+	url = git@gitlab.com:gabmus/hugo-ficurinia.git
