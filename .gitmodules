@@ -1,0 +1,3 @@
+[submodule "themes/main"]
+	path = themes/main
+	url = https://gitlab.com/gabmus/hugo-ficurinia.git
