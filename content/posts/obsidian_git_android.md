@@ -1,5 +1,5 @@
 +++
-title = 'Obsidian on tablet with git extension'
+title = 'Obsidian on Android with Github backups'
 date = '2024-05-09T12:00:00+02:00'
 tags = ["one", "two"]
 +++
