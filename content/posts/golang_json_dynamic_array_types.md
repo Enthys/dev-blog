@@ -13,7 +13,7 @@ Parsing an array which has a single type within it is easy, but what about array
     "targets": [
         {"type": "player", "attributes": {"level": 10, "name": "Duke", "class": "Warrior"}},
         {"type": "enemy", "attributes": {"level": 11, "name": "Goblin", "personality": "aggressive"}},
-        {"type": "object", "attributes": {"name": "Tree", interactable": false }}
+        {"type": "object", "attributes": {"name": "Tree", "interactable": false }}
     ]
 }
 ```
