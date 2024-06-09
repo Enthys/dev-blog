@@ -17,7 +17,6 @@ jobs:
         args: --minify --buildDrafts
     - name: Commit compiled project to release
       run: |
-        git diff
         git config --global user.name 'Automaton'
         git config --global user.email 'asenj.mihaylov@gmail.com'
         git add .
