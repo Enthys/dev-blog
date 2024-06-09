@@ -9,13 +9,17 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    - uses: actions/checkout@master
-    - uses: jakejarvis/hugo-build-action@master  # ...or replace 'master' with a full version tag, such as: v0.64.1
+    - uses: actions/checkout@v3
+    - run: |
+        git submodule update --init --recursive
+    - uses: jakejarvis/hugo-build-action@master
       with:
         args: --minify --buildDrafts
     - name: Commit compiled project to release
       run: |
+        git diff
         git config --global user.name 'Automaton'
         git config --global user.email 'asenj.mihaylov@gmail.com'
-        git commit -am "Automated report"
+        git add .
+        git commit -m "Automated report"
         git push
